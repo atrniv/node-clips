@@ -1,0 +1,35 @@
+{
+  "name": "node-clips",
+  "version": "0.0.1",
+  "description": "NodeJS package for using CLIPS, a tool for building expert systems.",
+  "keywords": [
+    "clips",
+    "expert systems",
+    "rule engines"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atrniv/node-clips.git"
+  },
+  "bugs": {
+    "url": "http://github.com/atrniv/node-clips/issues"
+  },
+  "author": {
+    "name": "Johny Jose",
+    "email": "johny@playlyfe.com",
+    "url": "http://blog.playlyfe.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "devDependencies": {
+    "jasmine-node": "*"
+  },
+  "engines": {
+    "node": ">=0.8.18"
+  }
+}
