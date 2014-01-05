@@ -196,6 +196,7 @@
         "-Wno-write-strings",
         "-Wunused-result",
         "-Wmissing-field-initializers",
+        "-Qunused-arguments",
         "-x c++"
       ],
       "defines": [

@@ -211,9 +211,8 @@ void CLIPSCleanup(uv_work_t* req, int status) {
   HandleScope scope;
 
   func_baton* baton = (func_baton*) req->data;
-  const int argc = baton->rargc;
-  Local<Value> argv[argc];
-  argv[0] = Local<Value>::New(Null());
+  const int argc = 2;
+  Local<Value> argv[argc] = { Local<Value>::New(Null()), Local<Value>::New(Null()) };
 
   // Handle Return value
   if (baton->func == CLIPS_DISPOSE) {
