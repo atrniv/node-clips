@@ -24,7 +24,9 @@ For more information about CLIPS checkout the [official documentation](http://cl
 
         // Reset environment and run 
         env.reset(function(){
-          env.run(function() {
+
+          // Rule firing limit set to 1000
+          env.run(1000, function() {
             
             // Log fact list to console           
             console.log(env.facts());
