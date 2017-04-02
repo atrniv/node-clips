@@ -1,6 +1,11 @@
 Node CLIPS
 ==========
 
+**NOTE**
+**This repository is not actively maintained. The package will most probably fail to compile on any recent version of NodeJS after 0.11.0**
+
+
+
 NodeJS package for using CLIPS, a tool for building expert systems.
 
 For more information about CLIPS checkout the [official documentation](http://clipsrules.sourceforge.net/OnlineDocs.html).
